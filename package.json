@@ -3,16 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1",
-    "webpack": "^4.41.5"
+    "live-server": "^1.2.1"
   },
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server",
-    "test": "npm test"
+    "start": "./node_modules/.bin/live-server html"
   },
   "author": "Marty Kane",
   "license": "ISC"
