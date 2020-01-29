@@ -1,0 +1,34 @@
+body {
+  background: #eee;
+}
+
+.calendar {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(23, 1fr);
+}
+
+.header {
+  background: #ccc;
+  font-weight: bold;
+  padding: 8px;
+  text-align: center;
+}
+
+.cell {
+  background: white;
+  padding: 8px;
+}
+
+/* a hack to save typing - force br's to take up space in the grid */
+br {
+  background: white;
+  content: " ";
+  display: block;
+}
+
+.cell.time {
+  grid-column: 1;
+  text-align: right:
+}
